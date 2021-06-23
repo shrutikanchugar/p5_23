@@ -1,0 +1,113 @@
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+.my_nav_bar
+{
+    position:sticky;
+    top:0;
+    z-index:99999;
+    
+}
+
+/* moving letters */
+
+.ml6 {
+    position: relative;
+    font-weight: 900;
+    font-size: 3.3em;
+    color: white;
+    text-align: center;
+  }
+  
+  .ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+/* first image */
+#image1{
+    width : auto;
+    height : 50%;
+    display: block;
+    border-radius: 20px;
+}
+
+/* about section */
+#bio {
+    
+    padding: 50px;
+    text-align: center;
+
+    
+}
+
+.line {
+    height: 6px;
+    background-color: white;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.p1{
+    color: white; 
+    font-size: 35px; 
+    line-height: 1.5; 
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) 
+.column {
+    float:left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers 
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  */
+  .sp,.di
+{
+  margin:20px;
+}
+
+
+img{
+  width: 20%;
+}
+
+
+
+.row{
+  color: white;
+  font-size: large;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
